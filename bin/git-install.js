@@ -19,7 +19,6 @@ if (shell.exec(`git clone ${args.template} ${args.projectName}`).code !== 0) {
 shell.cd(args.projectName);
 shell.rm('-rf', '.git');
 shell.exec('git init');
-// shell.exec('git add ./*');
 shell.exec('git add .');
 shell.exec('git commit -m "Initial Commit"');
 
