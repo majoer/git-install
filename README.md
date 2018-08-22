@@ -7,6 +7,6 @@
 
 ## Usage
 ```
-npm install -g https://github.com/majoer/node.git-install.git
+npm install -g https://github.com/majoer/git-install.git
 git-install my-local-repo --template <git:url>
 ```
